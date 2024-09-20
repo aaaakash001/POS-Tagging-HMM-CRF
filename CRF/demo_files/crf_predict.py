@@ -85,7 +85,7 @@ def word_features(sentence, i):
 
 def predict_pos_tags(sentence):
     # Load the saved components
-    with open('./best_crf_model.pkl', 'rb') as f:
+    with open(os.path.join(demo_files_dir, 'best_crf_model.pkl'), 'rb') as f:
         loaded_crf = pickle.load(f)
     pred = loaded_crf.predict([sentence])
     pred =[label for sublist in pred for label in sublist]

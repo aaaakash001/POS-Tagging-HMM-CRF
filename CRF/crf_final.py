@@ -112,7 +112,7 @@ for train_index, test_index in kf.split(X):
     crf.fit(X_train, y_train)
 
     # Save the model to a file using pickle
-    with open(f'best_crf_model.pkl', 'wb') as f:
+    with open(f'./demo/best_crf_model.pkl', 'wb') as f:
         pickle.dump(crf, f)
     
     # Predict
@@ -175,4 +175,4 @@ sn.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=labels, y
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
-plt.savefig('confusion_matrix.png')
+plt.savefig('./results/confusion_matrix.png')

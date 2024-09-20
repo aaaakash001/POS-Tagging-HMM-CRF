@@ -9,9 +9,3 @@ best params: {'c1': 0.11766614487479549, 'c2': 0.04409223069323696}
 best CV score: 0.9760645396380246
 model size: 4.67M
 Best CRF model saved to 'best_crf_model.pkl'
-Top likely transitions:
-
-Top unlikely transitions:
-Top positive:
-
-Top negative:
