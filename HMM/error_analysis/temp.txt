@@ -1,0 +1,1236 @@
+{'VERB_PRT': 1, 'NOUN_.': 1, 'PRON_ADJ': 1, 'CONJ_X': 1, 'ADV_PRON': 2, 'PRT_ADJ': 2, 'X_ADV': 2, 'X_PRT': 2, 'X_NUM': 2, 'PRON_VERB': 2, 'DET_ADJ': 2, 'PRT_DET': 2, 'PRT_X': 2, 'DET_X': 2, 'CONJ_ADP': 3, 'X_PRON': 3, 'PRT_PRON': 3, 'X_CONJ': 3, 'PRON_X': 3, 'ADP_X': 3, 'ADP_.': 3, 'NOUN_PRON': 4, 'X_.': 4, 'ADJ_ADP': 4, 'DET_NOUN': 4, 'NOUN_ADP': 4, 'DET_CONJ': 4, 'NOUN_PRT': 6, 'PRT_VERB': 6, 'VERB_X': 7, 'NUM_X': 7, 'ADJ_X': 8, 'ADP_NOUN': 8, 'X_DET': 8, 'X_ADP': 10, 'PRON_NOUN': 11, 'NOUN_DET': 14, 'X_ADJ': 14, 'ADV_CONJ': 14, 'ADJ_NUM': 16, '._X': 16, 'ADV_VERB': 17, 'CONJ_DET': 19, 'X_VERB': 19, 'NUM_ADJ': 21, 'DET_ADV': 21, 'ADP_CONJ': 22, 'ADP_ADJ': 23, 'VERB_ADV': 27, 'ADP_VERB': 28, 'CONJ_ADV': 34, 'ADV_DET': 34, 'VERB_ADP': 39, 'ADJ_PRT': 44, 'NOUN_ADV': 44, 'PRT_ADV': 48, 'PRON_DET': 54, 'ADV_NOUN': 57, 'ADP_PRON': 59, 'PRT_NOUN': 63, 'ADP_DET': 65, 'NUM_NOUN': 73, 'PRON_ADP': 74, 'DET_ADP': 114, 'X_NOUN': 114, 'NOUN_X': 120, 'ADJ_VERB': 137, 'ADV_PRT': 153, 'NOUN_NUM': 158, 'DET_PRON': 202, 'VERB_ADJ': 244, 'ADP_PRT': 329, 'ADV_ADP': 343, 'PRT_ADP': 417, 'ADV_ADJ': 426, 'ADP_ADV': 435, 'ADJ_ADV': 497, 'NOUN_VERB': 648, 'ADJ_NOUN': 807, 'NOUN_ADJ': 1025, 'VERB_NOUN': 1233}
+Processing complete. Results saved to 'results.csv'.
+
+Preceding Tag Counts:
+
+Wrong Tag: ADP_DET
+  Preceding Tag: VERB, Count: 36
+  Preceding Tag: CONJ, Count: 13
+  Preceding Tag: PRT, Count: 1
+  Preceding Tag: ., Count: 6
+  Preceding Tag: ADP, Count: 9
+  Preceding Tag: NOUN, Count: 1
+Total Count for 'ADP_DET': 67
+
+Wrong Tag: VERB_NOUN
+  Preceding Tag: DET, Count: 184
+  Preceding Tag: NOUN, Count: 262
+  Preceding Tag: VERB, Count: 142
+  Preceding Tag: CONJ, Count: 101
+  Preceding Tag: ADP, Count: 174
+  Preceding Tag: PRT, Count: 209
+  Preceding Tag: ADJ, Count: 88
+  Preceding Tag: ADV, Count: 55
+  Preceding Tag: ., Count: 130
+  Preceding Tag: PRON, Count: 48
+  Preceding Tag: X, Count: 2
+  Preceding Tag: NUM, Count: 8
+Total Count for 'VERB_NOUN': 1471
+
+Wrong Tag: NOUN_ADJ
+  Preceding Tag: DET, Count: 533
+  Preceding Tag: ADP, Count: 254
+  Preceding Tag: ADJ, Count: 60
+  Preceding Tag: NOUN, Count: 48
+  Preceding Tag: ., Count: 108
+  Preceding Tag: CONJ, Count: 63
+  Preceding Tag: PRON, Count: 5
+  Preceding Tag: ADV, Count: 24
+  Preceding Tag: VERB, Count: 75
+  Preceding Tag: NUM, Count: 10
+  Preceding Tag: PRT, Count: 5
+  Preceding Tag: X, Count: 2
+Total Count for 'NOUN_ADJ': 1241
+
+Wrong Tag: ADV_ADJ
+  Preceding Tag: VERB, Count: 56
+  Preceding Tag: DET, Count: 190
+  Preceding Tag: ADV, Count: 91
+  Preceding Tag: ADJ, Count: 33
+  Preceding Tag: NOUN, Count: 18
+  Preceding Tag: ADP, Count: 42
+  Preceding Tag: CONJ, Count: 10
+  Preceding Tag: ., Count: 13
+  Preceding Tag: PRON, Count: 5
+  Preceding Tag: NUM, Count: 2
+  Preceding Tag: PRT, Count: 6
+Total Count for 'ADV_ADJ': 474
+
+Wrong Tag: VERB_ADV
+  Preceding Tag: PRT, Count: 3
+  Preceding Tag: VERB, Count: 12
+  Preceding Tag: CONJ, Count: 2
+  Preceding Tag: NOUN, Count: 3
+  Preceding Tag: ADV, Count: 5
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: PRON, Count: 1
+Total Count for 'VERB_ADV': 27
+
+Wrong Tag: ADP_PRON
+  Preceding Tag: VERB, Count: 29
+  Preceding Tag: CONJ, Count: 5
+  Preceding Tag: NOUN, Count: 4
+  Preceding Tag: ., Count: 13
+  Preceding Tag: ADJ, Count: 1
+  Preceding Tag: ADP, Count: 5
+  Preceding Tag: PRT, Count: 2
+Total Count for 'ADP_PRON': 61
+
+Wrong Tag: NOUN_VERB
+  Preceding Tag: NOUN, Count: 242
+  Preceding Tag: ADJ, Count: 67
+  Preceding Tag: VERB, Count: 105
+  Preceding Tag: DET, Count: 121
+  Preceding Tag: PRT, Count: 26
+  Preceding Tag: ADP, Count: 53
+  Preceding Tag: CONJ, Count: 39
+  Preceding Tag: ., Count: 30
+  Preceding Tag: ADV, Count: 17
+  Preceding Tag: PRON, Count: 11
+Total Count for 'NOUN_VERB': 722
+
+Wrong Tag: ADJ_NOUN
+  Preceding Tag: ., Count: 95
+  Preceding Tag: DET, Count: 296
+  Preceding Tag: VERB, Count: 118
+  Preceding Tag: NOUN, Count: 104
+  Preceding Tag: ADJ, Count: 127
+  Preceding Tag: ADV, Count: 50
+  Preceding Tag: CONJ, Count: 61
+  Preceding Tag: NUM, Count: 7
+  Preceding Tag: ADP, Count: 87
+  Preceding Tag: PRT, Count: 3
+  Preceding Tag: PRON, Count: 1
+Total Count for 'ADJ_NOUN': 969
+
+Wrong Tag: ADJ_ADV
+  Preceding Tag: VERB, Count: 184
+  Preceding Tag: CONJ, Count: 41
+  Preceding Tag: PRON, Count: 9
+  Preceding Tag: ADP, Count: 22
+  Preceding Tag: ., Count: 32
+  Preceding Tag: NOUN, Count: 60
+  Preceding Tag: ADV, Count: 119
+  Preceding Tag: PRT, Count: 10
+  Preceding Tag: ADJ, Count: 5
+  Preceding Tag: NUM, Count: 7
+  Preceding Tag: DET, Count: 22
+Total Count for 'ADJ_ADV': 551
+
+Wrong Tag: ADV_ADP
+  Preceding Tag: NOUN, Count: 118
+  Preceding Tag: ADP, Count: 34
+  Preceding Tag: ., Count: 41
+  Preceding Tag: ADV, Count: 33
+  Preceding Tag: VERB, Count: 96
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: PRON, Count: 4
+  Preceding Tag: PRT, Count: 5
+  Preceding Tag: CONJ, Count: 9
+  Preceding Tag: ADJ, Count: 13
+Total Count for 'ADV_ADP': 373
+
+Wrong Tag: ADP_PRT
+  Preceding Tag: VERB, Count: 171
+  Preceding Tag: ADP, Count: 15
+  Preceding Tag: NOUN, Count: 72
+  Preceding Tag: PRON, Count: 13
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: ., Count: 16
+  Preceding Tag: PRT, Count: 9
+  Preceding Tag: CONJ, Count: 21
+  Preceding Tag: ADV, Count: 13
+  Preceding Tag: ADJ, Count: 14
+Total Count for 'ADP_PRT': 351
+
+Wrong Tag: ADP_ADV
+  Preceding Tag: ., Count: 163
+  Preceding Tag: CONJ, Count: 29
+  Preceding Tag: NOUN, Count: 40
+  Preceding Tag: VERB, Count: 91
+  Preceding Tag: ADV, Count: 44
+  Preceding Tag: ADJ, Count: 11
+  Preceding Tag: DET, Count: 11
+  Preceding Tag: ADP, Count: 14
+  Preceding Tag: PRON, Count: 20
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: PRT, Count: 3
+Total Count for 'ADP_ADV': 473
+
+Wrong Tag: ADJ_NUM
+  Preceding Tag: CONJ, Count: 1
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: NOUN, Count: 3
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: ADJ, Count: 1
+  Preceding Tag: ., Count: 4
+  Preceding Tag: ADP, Count: 2
+Total Count for 'ADJ_NUM': 16
+
+Wrong Tag: ADJ_PRT
+  Preceding Tag: ., Count: 6
+  Preceding Tag: NOUN, Count: 25
+  Preceding Tag: VERB, Count: 7
+  Preceding Tag: ADP, Count: 2
+Total Count for 'ADJ_PRT': 44
+
+Wrong Tag: ADJ_VERB
+  Preceding Tag: ADV, Count: 31
+  Preceding Tag: NOUN, Count: 18
+  Preceding Tag: CONJ, Count: 6
+  Preceding Tag: PRON, Count: 10
+  Preceding Tag: VERB, Count: 26
+  Preceding Tag: ., Count: 29
+  Preceding Tag: PRT, Count: 8
+  Preceding Tag: ADP, Count: 8
+  Preceding Tag: DET, Count: 4
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: ADJ, Count: 3
+Total Count for 'ADJ_VERB': 145
+
+Wrong Tag: PRT_NOUN
+  Preceding Tag: DET, Count: 11
+  Preceding Tag: ., Count: 31
+  Preceding Tag: ADJ, Count: 7
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: ADV, Count: 1
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: NOUN, Count: 3
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'PRT_NOUN': 65
+
+Wrong Tag: DET_PRON
+  Preceding Tag: ., Count: 32
+  Preceding Tag: NOUN, Count: 9
+  Preceding Tag: ADV, Count: 9
+  Preceding Tag: VERB, Count: 28
+  Preceding Tag: CONJ, Count: 26
+  Preceding Tag: ADP, Count: 65
+  Preceding Tag: PRT, Count: 3
+  Preceding Tag: PRON, Count: 2
+  Preceding Tag: ADJ, Count: 1
+Total Count for 'DET_PRON': 208
+
+Wrong Tag: PRT_ADP
+  Preceding Tag: VERB, Count: 263
+  Preceding Tag: NOUN, Count: 114
+  Preceding Tag: CONJ, Count: 4
+  Preceding Tag: ADV, Count: 25
+  Preceding Tag: ADJ, Count: 21
+  Preceding Tag: ., Count: 7
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: PRON, Count: 12
+  Preceding Tag: ADP, Count: 4
+  Preceding Tag: PRT, Count: 3
+  Preceding Tag: NUM, Count: 2
+Total Count for 'PRT_ADP': 457
+
+Wrong Tag: VERB_ADJ
+  Preceding Tag: ADJ, Count: 12
+  Preceding Tag: PRT, Count: 16
+  Preceding Tag: NUM, Count: 3
+  Preceding Tag: ADP, Count: 45
+  Preceding Tag: VERB, Count: 21
+  Preceding Tag: DET, Count: 97
+  Preceding Tag: ADV, Count: 25
+  Preceding Tag: NOUN, Count: 5
+  Preceding Tag: ., Count: 3
+  Preceding Tag: CONJ, Count: 18
+  Preceding Tag: PRON, Count: 2
+Total Count for 'VERB_ADJ': 254
+
+Wrong Tag: NOUN_NUM
+  Preceding Tag: ., Count: 32
+  Preceding Tag: ADV, Count: 26
+  Preceding Tag: DET, Count: 10
+  Preceding Tag: ADP, Count: 81
+  Preceding Tag: VERB, Count: 26
+  Preceding Tag: NOUN, Count: 11
+  Preceding Tag: CONJ, Count: 9
+  Preceding Tag: PRON, Count: 1
+Total Count for 'NOUN_NUM': 210
+
+Wrong Tag: NUM_NOUN
+  Preceding Tag: ADJ, Count: 35
+  Preceding Tag: NOUN, Count: 10
+  Preceding Tag: DET, Count: 26
+  Preceding Tag: ADV, Count: 3
+  Preceding Tag: VERB, Count: 6
+  Preceding Tag: NUM, Count: 1
+Total Count for 'NUM_NOUN': 81
+
+Wrong Tag: VERB_ADP
+  Preceding Tag: VERB, Count: 16
+  Preceding Tag: NOUN, Count: 13
+  Preceding Tag: PRT, Count: 4
+  Preceding Tag: ., Count: 2
+  Preceding Tag: PRON, Count: 1
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: ADP, Count: 1
+Total Count for 'VERB_ADP': 39
+
+Wrong Tag: ADV_VERB
+  Preceding Tag: NOUN, Count: 4
+  Preceding Tag: PRON, Count: 8
+  Preceding Tag: PRT, Count: 4
+  Preceding Tag: VERB, Count: 1
+Total Count for 'ADV_VERB': 17
+
+Wrong Tag: VERB_PRT
+  Preceding Tag: ., Count: 1
+Total Count for 'VERB_PRT': 1
+
+Wrong Tag: NOUN_X
+  Preceding Tag: NOUN, Count: 189
+  Preceding Tag: ., Count: 50
+  Preceding Tag: ADP, Count: 11
+  Preceding Tag: VERB, Count: 9
+  Preceding Tag: X, Count: 8
+  Preceding Tag: ADJ, Count: 16
+  Preceding Tag: DET, Count: 13
+  Preceding Tag: CONJ, Count: 7
+Total Count for 'NOUN_X': 308
+
+Wrong Tag: NOUN_ADV
+  Preceding Tag: VERB, Count: 10
+  Preceding Tag: NOUN, Count: 9
+  Preceding Tag: ADP, Count: 4
+  Preceding Tag: ., Count: 8
+  Preceding Tag: DET, Count: 6
+  Preceding Tag: CONJ, Count: 4
+  Preceding Tag: NUM, Count: 1
+Total Count for 'NOUN_ADV': 44
+
+Wrong Tag: NUM_ADJ
+  Preceding Tag: DET, Count: 18
+  Preceding Tag: ADV, Count: 2
+  Preceding Tag: VERB, Count: 1
+Total Count for 'NUM_ADJ': 21
+
+Wrong Tag: ADV_PRT
+  Preceding Tag: ADP, Count: 19
+  Preceding Tag: PRT, Count: 19
+  Preceding Tag: VERB, Count: 63
+  Preceding Tag: NOUN, Count: 18
+  Preceding Tag: ADV, Count: 7
+  Preceding Tag: ., Count: 22
+  Preceding Tag: PRON, Count: 3
+  Preceding Tag: CONJ, Count: 3
+  Preceding Tag: ADJ, Count: 2
+Total Count for 'ADV_PRT': 171
+
+Wrong Tag: DET_ADP
+  Preceding Tag: NOUN, Count: 21
+  Preceding Tag: VERB, Count: 48
+  Preceding Tag: ADV, Count: 12
+  Preceding Tag: ., Count: 12
+  Preceding Tag: PRT, Count: 3
+  Preceding Tag: PRON, Count: 8
+  Preceding Tag: NUM, Count: 2
+  Preceding Tag: CONJ, Count: 1
+  Preceding Tag: ADP, Count: 3
+  Preceding Tag: DET, Count: 1
+  Preceding Tag: ADJ, Count: 4
+Total Count for 'DET_ADP': 116
+
+Wrong Tag: PRON_ADP
+  Preceding Tag: NOUN, Count: 66
+  Preceding Tag: VERB, Count: 1
+  Preceding Tag: PRON, Count: 1
+  Preceding Tag: ., Count: 2
+  Preceding Tag: NUM, Count: 4
+  Preceding Tag: ADJ, Count: 2
+Total Count for 'PRON_ADP': 76
+
+Wrong Tag: ADV_NOUN
+  Preceding Tag: NUM, Count: 1
+  Preceding Tag: NOUN, Count: 19
+  Preceding Tag: ., Count: 5
+  Preceding Tag: ADP, Count: 2
+  Preceding Tag: VERB, Count: 23
+  Preceding Tag: ADV, Count: 3
+  Preceding Tag: CONJ, Count: 3
+  Preceding Tag: ADJ, Count: 1
+Total Count for 'ADV_NOUN': 59
+
+Wrong Tag: PRON_DET
+  Preceding Tag: VERB, Count: 22
+  Preceding Tag: ADP, Count: 31
+  Preceding Tag: PRON, Count: 2
+  Preceding Tag: CONJ, Count: 2
+  Preceding Tag: ADV, Count: 1
+Total Count for 'PRON_DET': 58
+
+Wrong Tag: ADP_ADJ
+  Preceding Tag: ADV, Count: 3
+  Preceding Tag: NOUN, Count: 5
+  Preceding Tag: ., Count: 5
+  Preceding Tag: VERB, Count: 6
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: DET, Count: 1
+  Preceding Tag: PRT, Count: 2
+Total Count for 'ADP_ADJ': 23
+
+Wrong Tag: ADP_VERB
+  Preceding Tag: ., Count: 4
+  Preceding Tag: VERB, Count: 5
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: CONJ, Count: 1
+  Preceding Tag: ADV, Count: 2
+  Preceding Tag: NOUN, Count: 9
+  Preceding Tag: PRON, Count: 5
+Total Count for 'ADP_VERB': 28
+
+Wrong Tag: VERB_X
+  Preceding Tag: ., Count: 1
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: PRON, Count: 5
+  Preceding Tag: VERB, Count: 5
+  Preceding Tag: PRT, Count: 3
+Total Count for 'VERB_X': 15
+
+Wrong Tag: CONJ_DET
+  Preceding Tag: VERB, Count: 6
+  Preceding Tag: ADP, Count: 11
+  Preceding Tag: ., Count: 1
+Total Count for 'CONJ_DET': 19
+
+Wrong Tag: ADP_CONJ
+  Preceding Tag: ADV, Count: 2
+  Preceding Tag: PRT, Count: 4
+  Preceding Tag: NOUN, Count: 8
+  Preceding Tag: VERB, Count: 3
+  Preceding Tag: ADJ, Count: 2
+  Preceding Tag: ., Count: 2
+Total Count for 'ADP_CONJ': 22
+
+Wrong Tag: NOUN_PRT
+  Preceding Tag: ADJ, Count: 2
+  Preceding Tag: ., Count: 2
+  Preceding Tag: VERB, Count: 1
+  Preceding Tag: ADP, Count: 1
+Total Count for 'NOUN_PRT': 6
+
+Wrong Tag: DET_ADV
+  Preceding Tag: VERB, Count: 8
+  Preceding Tag: ., Count: 5
+  Preceding Tag: PRON, Count: 3
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: ADV, Count: 1
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'DET_ADV': 21
+
+Wrong Tag: ADJ_X
+  Preceding Tag: ., Count: 3
+  Preceding Tag: NOUN, Count: 3
+  Preceding Tag: ADJ, Count: 2
+  Preceding Tag: DET, Count: 1
+  Preceding Tag: VERB, Count: 1
+Total Count for 'ADJ_X': 10
+
+Wrong Tag: ._X
+  Preceding Tag: NOUN, Count: 9
+  Preceding Tag: X, Count: 7
+  Preceding Tag: NUM, Count: 7
+  Preceding Tag: ADP, Count: 2
+  Preceding Tag: ADJ, Count: 1
+Total Count for '._X': 26
+
+Wrong Tag: ADV_PRON
+  Preceding Tag: ADP, Count: 2
+Total Count for 'ADV_PRON': 2
+
+Wrong Tag: X_NOUN
+  Preceding Tag: X, Count: 124
+  Preceding Tag: DET, Count: 40
+  Preceding Tag: NOUN, Count: 8
+  Preceding Tag: ., Count: 45
+  Preceding Tag: VERB, Count: 8
+  Preceding Tag: ADP, Count: 13
+  Preceding Tag: ADJ, Count: 15
+  Preceding Tag: CONJ, Count: 10
+  Preceding Tag: PRT, Count: 1
+Total Count for 'X_NOUN': 272
+
+Wrong Tag: X_ADJ
+  Preceding Tag: ., Count: 2
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: X, Count: 14
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'X_ADJ': 22
+
+Wrong Tag: PRT_ADV
+  Preceding Tag: ADV, Count: 8
+  Preceding Tag: VERB, Count: 10
+  Preceding Tag: DET, Count: 1
+  Preceding Tag: CONJ, Count: 4
+  Preceding Tag: ., Count: 17
+  Preceding Tag: ADP, Count: 2
+  Preceding Tag: PRT, Count: 1
+Total Count for 'PRT_ADV': 50
+
+Wrong Tag: NOUN_.
+  Preceding Tag: NUM, Count: 1
+Total Count for 'NOUN_.': 1
+
+Wrong Tag: ADP_NOUN
+  Preceding Tag: NUM, Count: 2
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: ., Count: 1
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: ADJ, Count: 1
+Total Count for 'ADP_NOUN': 8
+
+Wrong Tag: PRT_VERB
+  Preceding Tag: ., Count: 4
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: PRON, Count: 1
+Total Count for 'PRT_VERB': 6
+
+Wrong Tag: CONJ_ADV
+  Preceding Tag: VERB, Count: 4
+  Preceding Tag: ., Count: 5
+  Preceding Tag: CONJ, Count: 2
+Total Count for 'CONJ_ADV': 34
+
+Wrong Tag: NOUN_PRON
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: ADV, Count: 1
+Total Count for 'NOUN_PRON': 4
+
+Wrong Tag: ADV_DET
+  Preceding Tag: VERB, Count: 22
+  Preceding Tag: ADP, Count: 4
+  Preceding Tag: ., Count: 1
+  Preceding Tag: PRT, Count: 1
+  Preceding Tag: CONJ, Count: 2
+  Preceding Tag: NOUN, Count: 2
+Total Count for 'ADV_DET': 34
+
+Wrong Tag: NOUN_DET
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: ., Count: 7
+  Preceding Tag: NOUN, Count: 5
+Total Count for 'NOUN_DET': 14
+
+Wrong Tag: CONJ_ADP
+  Preceding Tag: NOUN, Count: 3
+Total Count for 'CONJ_ADP': 3
+
+Wrong Tag: X_.
+  Preceding Tag: PRT, Count: 1
+  Preceding Tag: NOUN, Count: 2
+  Preceding Tag: X, Count: 3
+Total Count for 'X_.': 6
+
+Wrong Tag: PRT_ADJ
+  Preceding Tag: ADP, Count: 1
+  Preceding Tag: ., Count: 1
+Total Count for 'PRT_ADJ': 2
+
+Wrong Tag: ADJ_ADP
+  Preceding Tag: ADJ, Count: 1
+  Preceding Tag: CONJ, Count: 1
+  Preceding Tag: VERB, Count: 1
+  Preceding Tag: ., Count: 1
+Total Count for 'ADJ_ADP': 4
+
+Wrong Tag: DET_NOUN
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: ., Count: 1
+  Preceding Tag: VERB, Count: 1
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'DET_NOUN': 4
+
+Wrong Tag: NOUN_ADP
+  Preceding Tag: ADJ, Count: 1
+  Preceding Tag: DET, Count: 2
+  Preceding Tag: NOUN, Count: 1
+Total Count for 'NOUN_ADP': 4
+
+Wrong Tag: ADV_CONJ
+  Preceding Tag: ADP, Count: 2
+  Preceding Tag: ., Count: 5
+  Preceding Tag: NOUN, Count: 2
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: ADJ, Count: 2
+Total Count for 'ADV_CONJ': 14
+
+Wrong Tag: X_VERB
+  Preceding Tag: ., Count: 6
+  Preceding Tag: X, Count: 142
+Total Count for 'X_VERB': 149
+
+Wrong Tag: PRON_ADJ
+  Preceding Tag: ADV, Count: 1
+Total Count for 'PRON_ADJ': 1
+
+Wrong Tag: PRON_NOUN
+  Preceding Tag: ADP, Count: 5
+  Preceding Tag: CONJ, Count: 3
+  Preceding Tag: NOUN, Count: 1
+  Preceding Tag: DET, Count: 1
+  Preceding Tag: PRT, Count: 1
+Total Count for 'PRON_NOUN': 11
+
+Wrong Tag: CONJ_X
+  Preceding Tag: NOUN, Count: 1
+Total Count for 'CONJ_X': 1
+
+Wrong Tag: X_PRON
+  Preceding Tag: X, Count: 3
+  Preceding Tag: ., Count: 2
+Total Count for 'X_PRON': 5
+
+Wrong Tag: PRT_PRON
+  Preceding Tag: ., Count: 2
+Total Count for 'PRT_PRON': 3
+
+Wrong Tag: X_ADP
+  Preceding Tag: X, Count: 30
+  Preceding Tag: ., Count: 5
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'X_ADP': 36
+
+Wrong Tag: X_DET
+  Preceding Tag: X, Count: 29
+Total Count for 'X_DET': 30
+
+Wrong Tag: X_CONJ
+  Preceding Tag: X, Count: 5
+Total Count for 'X_CONJ': 5
+
+Wrong Tag: X_ADV
+  Preceding Tag: X, Count: 1
+Total Count for 'X_ADV': 2
+
+Wrong Tag: X_PRT
+  Preceding Tag: X, Count: 2
+Total Count for 'X_PRT': 2
+
+Wrong Tag: PRON_X
+  Preceding Tag: ., Count: 2
+  Preceding Tag: VERB, Count: 2
+  Preceding Tag: CONJ, Count: 1
+Total Count for 'PRON_X': 5
+
+Wrong Tag: NUM_X
+  Preceding Tag: ., Count: 1
+  Preceding Tag: NOUN, Count: 10
+  Preceding Tag: ADP, Count: 10
+Total Count for 'NUM_X': 21
+
+Wrong Tag: ADP_X
+  Preceding Tag: NUM, Count: 5
+Total Count for 'ADP_X': 5
+
+Wrong Tag: ADP_.
+  Preceding Tag: NUM, Count: 3
+Total Count for 'ADP_.': 3
+
+Wrong Tag: X_NUM
+  Preceding Tag: X, Count: 4
+Total Count for 'X_NUM': 4
+
+Wrong Tag: PRON_VERB
+  Preceding Tag: VERB, Count: 1
+  Preceding Tag: ADV, Count: 1
+Total Count for 'PRON_VERB': 2
+
+Wrong Tag: DET_ADJ
+  Preceding Tag: ., Count: 2
+Total Count for 'DET_ADJ': 2
+
+Wrong Tag: PRT_DET
+  Preceding Tag: ., Count: 1
+Total Count for 'PRT_DET': 2
+
+Wrong Tag: PRT_X
+  Preceding Tag: ., Count: 2
+  Preceding Tag: NOUN, Count: 2
+Total Count for 'PRT_X': 4
+
+Wrong Tag: DET_X
+  Preceding Tag: PRT, Count: 2
+  Preceding Tag: VERB, Count: 2
+Total Count for 'DET_X': 4
+
+Proceeding Tag Counts:
+
+Wrong Tag: ADP_DET
+  Proceeding Tag: ADJ, Count: 46
+  Proceeding Tag: NOUN, Count: 13
+  Proceeding Tag: PRON, Count: 6
+  Proceeding Tag: ADV, Count: 2
+
+Wrong Tag: VERB_NOUN
+  Proceeding Tag: ADP, Count: 346
+  Proceeding Tag: NOUN, Count: 348
+  Proceeding Tag: ., Count: 317
+  Proceeding Tag: NUM, Count: 16
+  Proceeding Tag: DET, Count: 89
+  Proceeding Tag: PRT, Count: 66
+  Proceeding Tag: ADJ, Count: 36
+  Proceeding Tag: CONJ, Count: 79
+  Proceeding Tag: ADV, Count: 55
+  Proceeding Tag: VERB, Count: 41
+  Proceeding Tag: PRON, Count: 73
+
+Wrong Tag: NOUN_ADJ
+  Proceeding Tag: ADP, Count: 75
+  Proceeding Tag: ADV, Count: 4
+  Proceeding Tag: NOUN, Count: 776
+  Proceeding Tag: ADJ, Count: 99
+  Proceeding Tag: ., Count: 163
+  Proceeding Tag: DET, Count: 11
+  Proceeding Tag: CONJ, Count: 48
+  Proceeding Tag: NUM, Count: 4
+  Proceeding Tag: VERB, Count: 33
+  Proceeding Tag: PRT, Count: 21
+  Proceeding Tag: PRON, Count: 2
+  Proceeding Tag: X, Count: 3
+
+Wrong Tag: ADV_ADJ
+  Proceeding Tag: CONJ, Count: 22
+  Proceeding Tag: ADJ, Count: 191
+  Proceeding Tag: PRT, Count: 28
+  Proceeding Tag: ADP, Count: 91
+  Proceeding Tag: VERB, Count: 16
+  Proceeding Tag: ., Count: 74
+  Proceeding Tag: ADV, Count: 15
+  Proceeding Tag: NUM, Count: 5
+  Proceeding Tag: NOUN, Count: 28
+  Proceeding Tag: DET, Count: 2
+  Proceeding Tag: PRON, Count: 2
+
+Wrong Tag: VERB_ADV
+  Proceeding Tag: ADJ, Count: 4
+  Proceeding Tag: VERB, Count: 9
+  Proceeding Tag: DET, Count: 3
+  Proceeding Tag: ADP, Count: 3
+  Proceeding Tag: ADV, Count: 3
+  Proceeding Tag: PRT, Count: 2
+  Proceeding Tag: ., Count: 2
+  Proceeding Tag: PRON, Count: 1
+
+Wrong Tag: ADP_PRON
+  Proceeding Tag: ., Count: 27
+  Proceeding Tag: VERB, Count: 10
+  Proceeding Tag: PRT, Count: 3
+  Proceeding Tag: ADP, Count: 13
+  Proceeding Tag: ADV, Count: 5
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: DET, Count: 1
+
+Wrong Tag: NOUN_VERB
+  Proceeding Tag: NOUN, Count: 57
+  Proceeding Tag: ., Count: 136
+  Proceeding Tag: ADV, Count: 44
+  Proceeding Tag: ADP, Count: 185
+  Proceeding Tag: VERB, Count: 110
+  Proceeding Tag: DET, Count: 70
+  Proceeding Tag: ADJ, Count: 20
+  Proceeding Tag: NUM, Count: 14
+  Proceeding Tag: PRT, Count: 36
+  Proceeding Tag: CONJ, Count: 27
+  Proceeding Tag: PRON, Count: 22
+
+Wrong Tag: ADJ_NOUN
+  Proceeding Tag: NOUN, Count: 453
+  Proceeding Tag: ., Count: 246
+  Proceeding Tag: VERB, Count: 32
+  Proceeding Tag: NUM, Count: 3
+  Proceeding Tag: ADJ, Count: 36
+  Proceeding Tag: PRON, Count: 1
+  Proceeding Tag: ADP, Count: 99
+  Proceeding Tag: CONJ, Count: 84
+  Proceeding Tag: ADV, Count: 6
+  Proceeding Tag: DET, Count: 5
+  Proceeding Tag: PRT, Count: 4
+
+Wrong Tag: ADJ_ADV
+  Proceeding Tag: NOUN, Count: 32
+  Proceeding Tag: ADP, Count: 229
+  Proceeding Tag: VERB, Count: 47
+  Proceeding Tag: PRT, Count: 33
+  Proceeding Tag: PRON, Count: 18
+  Proceeding Tag: ., Count: 90
+  Proceeding Tag: ADV, Count: 41
+  Proceeding Tag: ADJ, Count: 35
+  Proceeding Tag: CONJ, Count: 6
+  Proceeding Tag: DET, Count: 20
+
+Wrong Tag: ADV_ADP
+  Proceeding Tag: ADV, Count: 84
+  Proceeding Tag: ADJ, Count: 91
+  Proceeding Tag: ADP, Count: 22
+  Proceeding Tag: NUM, Count: 56
+  Proceeding Tag: NOUN, Count: 45
+  Proceeding Tag: ., Count: 24
+  Proceeding Tag: PRT, Count: 5
+  Proceeding Tag: DET, Count: 32
+  Proceeding Tag: VERB, Count: 6
+  Proceeding Tag: CONJ, Count: 5
+  Proceeding Tag: PRON, Count: 2
+
+Wrong Tag: ADP_PRT
+  Proceeding Tag: ADP, Count: 125
+  Proceeding Tag: DET, Count: 57
+  Proceeding Tag: NOUN, Count: 22
+  Proceeding Tag: ., Count: 30
+  Proceeding Tag: ADV, Count: 30
+  Proceeding Tag: VERB, Count: 55
+  Proceeding Tag: ADJ, Count: 10
+  Proceeding Tag: CONJ, Count: 14
+  Proceeding Tag: PRT, Count: 8
+
+Wrong Tag: ADP_ADV
+  Proceeding Tag: ADP, Count: 224
+  Proceeding Tag: DET, Count: 13
+  Proceeding Tag: ., Count: 54
+  Proceeding Tag: VERB, Count: 101
+  Proceeding Tag: ADV, Count: 28
+  Proceeding Tag: PRON, Count: 27
+  Proceeding Tag: ADJ, Count: 8
+  Proceeding Tag: CONJ, Count: 6
+  Proceeding Tag: NOUN, Count: 5
+  Proceeding Tag: PRT, Count: 7
+
+Wrong Tag: ADJ_NUM
+  Proceeding Tag: NOUN, Count: 11
+  Proceeding Tag: ADJ, Count: 5
+
+Wrong Tag: ADJ_PRT
+  Proceeding Tag: VERB, Count: 7
+  Proceeding Tag: ADP, Count: 31
+  Proceeding Tag: NOUN, Count: 4
+  Proceeding Tag: ., Count: 2
+
+Wrong Tag: ADJ_VERB
+  Proceeding Tag: ADP, Count: 34
+  Proceeding Tag: ., Count: 41
+  Proceeding Tag: VERB, Count: 5
+  Proceeding Tag: ADV, Count: 8
+  Proceeding Tag: PRT, Count: 6
+  Proceeding Tag: NOUN, Count: 30
+  Proceeding Tag: ADJ, Count: 4
+  Proceeding Tag: CONJ, Count: 7
+  Proceeding Tag: DET, Count: 4
+  Proceeding Tag: PRON, Count: 5
+
+Wrong Tag: PRT_NOUN
+  Proceeding Tag: ADV, Count: 5
+  Proceeding Tag: DET, Count: 5
+  Proceeding Tag: ., Count: 33
+  Proceeding Tag: NOUN, Count: 6
+  Proceeding Tag: VERB, Count: 9
+  Proceeding Tag: CONJ, Count: 2
+  Proceeding Tag: ADP, Count: 5
+
+Wrong Tag: DET_PRON
+  Proceeding Tag: VERB, Count: 117
+  Proceeding Tag: NOUN, Count: 9
+  Proceeding Tag: ADV, Count: 4
+  Proceeding Tag: ADP, Count: 19
+  Proceeding Tag: ., Count: 51
+  Proceeding Tag: CONJ, Count: 4
+  Proceeding Tag: ADJ, Count: 3
+  Proceeding Tag: PRT, Count: 1
+
+Wrong Tag: PRT_ADP
+  Proceeding Tag: ADP, Count: 60
+  Proceeding Tag: VERB, Count: 212
+  Proceeding Tag: PRT, Count: 11
+  Proceeding Tag: NOUN, Count: 26
+  Proceeding Tag: DET, Count: 62
+  Proceeding Tag: PRON, Count: 3
+  Proceeding Tag: ADJ, Count: 9
+  Proceeding Tag: NUM, Count: 13
+  Proceeding Tag: ., Count: 35
+  Proceeding Tag: CONJ, Count: 12
+  Proceeding Tag: ADV, Count: 14
+
+Wrong Tag: VERB_ADJ
+  Proceeding Tag: NOUN, Count: 194
+  Proceeding Tag: ADV, Count: 6
+  Proceeding Tag: CONJ, Count: 8
+  Proceeding Tag: ADP, Count: 12
+  Proceeding Tag: NUM, Count: 4
+  Proceeding Tag: ADJ, Count: 10
+  Proceeding Tag: PRT, Count: 6
+  Proceeding Tag: ., Count: 6
+  Proceeding Tag: VERB, Count: 3
+  Proceeding Tag: DET, Count: 5
+
+Wrong Tag: NOUN_NUM
+  Proceeding Tag: VERB, Count: 65
+  Proceeding Tag: ADP, Count: 52
+  Proceeding Tag: NUM, Count: 23
+  Proceeding Tag: ., Count: 38
+  Proceeding Tag: DET, Count: 10
+  Proceeding Tag: PRT, Count: 1
+  Proceeding Tag: ADJ, Count: 5
+  Proceeding Tag: NOUN, Count: 5
+  Proceeding Tag: PRON, Count: 2
+  Proceeding Tag: CONJ, Count: 3
+  Proceeding Tag: ADV, Count: 4
+  Proceeding Tag: X, Count: 2
+
+Wrong Tag: NUM_NOUN
+  Proceeding Tag: NOUN, Count: 6
+  Proceeding Tag: ., Count: 19
+  Proceeding Tag: VERB, Count: 17
+  Proceeding Tag: ADV, Count: 3
+  Proceeding Tag: ADP, Count: 27
+  Proceeding Tag: PRT, Count: 1
+  Proceeding Tag: PRON, Count: 5
+  Proceeding Tag: DET, Count: 1
+  Proceeding Tag: CONJ, Count: 2
+
+Wrong Tag: VERB_ADP
+  Proceeding Tag: PRT, Count: 13
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: ADV, Count: 3
+  Proceeding Tag: NOUN, Count: 10
+  Proceeding Tag: PRON, Count: 4
+  Proceeding Tag: ., Count: 1
+  Proceeding Tag: DET, Count: 6
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: ADV_VERB
+  Proceeding Tag: DET, Count: 2
+  Proceeding Tag: ADP, Count: 9
+  Proceeding Tag: ., Count: 3
+  Proceeding Tag: VERB, Count: 3
+
+Wrong Tag: VERB_PRT
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: NOUN_X
+  Proceeding Tag: NOUN, Count: 160
+  Proceeding Tag: ., Count: 101
+  Proceeding Tag: VERB, Count: 9
+  Proceeding Tag: ADP, Count: 11
+  Proceeding Tag: X, Count: 3
+  Proceeding Tag: CONJ, Count: 13
+  Proceeding Tag: ADJ, Count: 2
+  Proceeding Tag: PRT, Count: 6
+  Proceeding Tag: ADV, Count: 3
+
+Wrong Tag: NOUN_ADV
+  Proceeding Tag: PRT, Count: 5
+  Proceeding Tag: ., Count: 13
+  Proceeding Tag: CONJ, Count: 6
+  Proceeding Tag: ADV, Count: 5
+  Proceeding Tag: ADP, Count: 2
+  Proceeding Tag: NOUN, Count: 3
+  Proceeding Tag: DET, Count: 4
+  Proceeding Tag: VERB, Count: 3
+  Proceeding Tag: PRON, Count: 1
+  Proceeding Tag: ADJ, Count: 2
+
+Wrong Tag: NUM_ADJ
+  Proceeding Tag: NOUN, Count: 20
+  Proceeding Tag: ., Count: 1
+
+Wrong Tag: ADV_PRT
+  Proceeding Tag: VERB, Count: 18
+  Proceeding Tag: ADP, Count: 36
+  Proceeding Tag: ., Count: 60
+  Proceeding Tag: NOUN, Count: 1
+  Proceeding Tag: DET, Count: 12
+  Proceeding Tag: ADJ, Count: 9
+  Proceeding Tag: ADV, Count: 26
+  Proceeding Tag: CONJ, Count: 6
+  Proceeding Tag: PRT, Count: 3
+
+Wrong Tag: NOUN_DET
+  Proceeding Tag: CONJ, Count: 1
+  Proceeding Tag: ., Count: 10
+  Proceeding Tag: VERB, Count: 2
+  Proceeding Tag: ADP, Count: 1
+
+Wrong Tag: DET_ADP
+  Proceeding Tag: NOUN, Count: 74
+  Proceeding Tag: ADJ, Count: 8
+  Proceeding Tag: NUM, Count: 3
+  Proceeding Tag: PRT, Count: 3
+  Proceeding Tag: ADP, Count: 20
+  Proceeding Tag: ., Count: 1
+  Proceeding Tag: VERB, Count: 3
+  Proceeding Tag: ADV, Count: 2
+  Proceeding Tag: DET, Count: 2
+
+Wrong Tag: PRON_ADP
+  Proceeding Tag: VERB, Count: 32
+  Proceeding Tag: NOUN, Count: 9
+  Proceeding Tag: ADV, Count: 11
+  Proceeding Tag: DET, Count: 10
+  Proceeding Tag: ., Count: 2
+  Proceeding Tag: ADP, Count: 5
+  Proceeding Tag: PRON, Count: 5
+  Proceeding Tag: ADJ, Count: 2
+
+Wrong Tag: ADV_NOUN
+  Proceeding Tag: PRT, Count: 4
+  Proceeding Tag: CONJ, Count: 6
+  Proceeding Tag: ., Count: 19
+  Proceeding Tag: NUM, Count: 1
+  Proceeding Tag: ADP, Count: 22
+  Proceeding Tag: VERB, Count: 5
+  Proceeding Tag: DET, Count: 1
+  Proceeding Tag: ADV, Count: 1
+
+Wrong Tag: X_NOUN
+  Proceeding Tag: NOUN, Count: 10
+  Proceeding Tag: ., Count: 94
+  Proceeding Tag: X, Count: 121
+  Proceeding Tag: VERB, Count: 11
+  Proceeding Tag: CONJ, Count: 15
+  Proceeding Tag: ADP, Count: 17
+  Proceeding Tag: PRON, Count: 2
+  Proceeding Tag: PRT, Count: 1
+  Proceeding Tag: ADV, Count: 1
+
+Wrong Tag: PRON_DET
+  Proceeding Tag: NOUN, Count: 26
+  Proceeding Tag: ADJ, Count: 7
+  Proceeding Tag: ADV, Count: 7
+  Proceeding Tag: ., Count: 6
+  Proceeding Tag: PRON, Count: 5
+  Proceeding Tag: DET, Count: 2
+  Proceeding Tag: VERB, Count: 4
+  Proceeding Tag: PRT, Count: 1
+
+Wrong Tag: ADP_ADJ
+  Proceeding Tag: NOUN, Count: 10
+  Proceeding Tag: ADP, Count: 12
+  Proceeding Tag: X, Count: 1
+
+Wrong Tag: ADP_VERB
+  Proceeding Tag: ADP, Count: 6
+  Proceeding Tag: ADV, Count: 1
+  Proceeding Tag: DET, Count: 10
+  Proceeding Tag: PRT, Count: 1
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: PRON, Count: 4
+  Proceeding Tag: ., Count: 3
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: VERB_X
+  Proceeding Tag: NOUN, Count: 4
+  Proceeding Tag: ., Count: 1
+  Proceeding Tag: VERB, Count: 5
+  Proceeding Tag: PRON, Count: 2
+  Proceeding Tag: DET, Count: 3
+
+Wrong Tag: CONJ_DET
+  Proceeding Tag: ADJ, Count: 8
+  Proceeding Tag: NOUN, Count: 8
+  Proceeding Tag: VERB, Count: 1
+  Proceeding Tag: DET, Count: 1
+  Proceeding Tag: PRON, Count: 1
+
+Wrong Tag: ADP_CONJ
+  Proceeding Tag: NOUN, Count: 4
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: VERB, Count: 6
+  Proceeding Tag: ADJ, Count: 4
+  Proceeding Tag: NUM, Count: 1
+  Proceeding Tag: DET, Count: 4
+  Proceeding Tag: ADV, Count: 1
+  Proceeding Tag: PRT, Count: 1
+
+Wrong Tag: NOUN_PRT
+  Proceeding Tag: ADP, Count: 2
+  Proceeding Tag: VERB, Count: 3
+  Proceeding Tag: NOUN, Count: 1
+
+Wrong Tag: DET_ADV
+  Proceeding Tag: NOUN, Count: 3
+  Proceeding Tag: VERB, Count: 6
+  Proceeding Tag: ., Count: 7
+  Proceeding Tag: ADV, Count: 1
+  Proceeding Tag: ADJ, Count: 4
+
+Wrong Tag: ADJ_X
+  Proceeding Tag: NOUN, Count: 8
+  Proceeding Tag: ADJ, Count: 2
+
+Wrong Tag: ._X
+  Proceeding Tag: NOUN, Count: 12
+  Proceeding Tag: ., Count: 11
+  Proceeding Tag: NUM, Count: 2
+  Proceeding Tag: X, Count: 1
+
+Wrong Tag: ADV_PRON
+  Proceeding Tag: NOUN, Count: 1
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: X_ADJ
+  Proceeding Tag: NOUN, Count: 1
+  Proceeding Tag: VERB, Count: 1
+  Proceeding Tag: ., Count: 1
+  Proceeding Tag: X, Count: 18
+  Proceeding Tag: ADP, Count: 1
+
+Wrong Tag: PRT_ADV
+  Proceeding Tag: ADJ, Count: 9
+  Proceeding Tag: ., Count: 28
+  Proceeding Tag: PRON, Count: 3
+  Proceeding Tag: ADV, Count: 5
+  Proceeding Tag: DET, Count: 3
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: NOUN_.
+  Proceeding Tag: NOUN, Count: 1
+
+Wrong Tag: ADP_NOUN
+  Proceeding Tag: NUM, Count: 2
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: DET, Count: 2
+  Proceeding Tag: VERB, Count: 1
+  Proceeding Tag: ADP, Count: 1
+
+Wrong Tag: PRT_VERB
+  Proceeding Tag: ., Count: 4
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: ADV, Count: 1
+
+Wrong Tag: CONJ_ADV
+  Proceeding Tag: ., Count: 2
+  Proceeding Tag: PRON, Count: 6
+  Proceeding Tag: DET, Count: 9
+  Proceeding Tag: ADP, Count: 8
+  Proceeding Tag: ADV, Count: 4
+  Proceeding Tag: VERB, Count: 4
+  Proceeding Tag: ADJ, Count: 1
+
+Wrong Tag: NOUN_PRON
+  Proceeding Tag: VERB, Count: 2
+  Proceeding Tag: ., Count: 1
+  Proceeding Tag: DET, Count: 1
+
+Wrong Tag: ADV_DET
+  Proceeding Tag: ADJ, Count: 16
+  Proceeding Tag: ADV, Count: 12
+  Proceeding Tag: NUM, Count: 5
+  Proceeding Tag: NOUN, Count: 1
+
+Wrong Tag: CONJ_ADP
+  Proceeding Tag: DET, Count: 3
+
+Wrong Tag: X_.
+  Proceeding Tag: X, Count: 3
+  Proceeding Tag: ADP, Count: 2
+
+Wrong Tag: PRT_ADJ
+  Proceeding Tag: DET, Count: 1
+  Proceeding Tag: ADJ, Count: 1
+
+Wrong Tag: ADJ_ADP
+  Proceeding Tag: NOUN, Count: 4
+
+Wrong Tag: DET_NOUN
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: ., Count: 1
+
+Wrong Tag: NOUN_ADP
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: ADP, Count: 1
+  Proceeding Tag: DET, Count: 1
+
+Wrong Tag: ADV_CONJ
+  Proceeding Tag: NUM, Count: 2
+  Proceeding Tag: ., Count: 5
+  Proceeding Tag: DET, Count: 3
+  Proceeding Tag: ADV, Count: 1
+  Proceeding Tag: VERB, Count: 1
+  Proceeding Tag: NOUN, Count: 1
+  Proceeding Tag: ADJ, Count: 1
+
+Wrong Tag: X_VERB
+  Proceeding Tag: ., Count: 12
+  Proceeding Tag: VERB, Count: 1
+  Proceeding Tag: X, Count: 136
+
+Wrong Tag: PRON_ADJ
+  Proceeding Tag: PRT, Count: 1
+
+Wrong Tag: PRON_NOUN
+  Proceeding Tag: PRT, Count: 1
+  Proceeding Tag: ., Count: 9
+  Proceeding Tag: NOUN, Count: 1
+
+Wrong Tag: DET_CONJ
+  Proceeding Tag: VERB, Count: 2
+  Proceeding Tag: ADP, Count: 2
+
+Wrong Tag: CONJ_X
+  Proceeding Tag: NOUN, Count: 1
+
+Wrong Tag: X_PRON
+  Proceeding Tag: X, Count: 3
+  Proceeding Tag: ., Count: 2
+
+Wrong Tag: PRT_PRON
+  Proceeding Tag: ., Count: 3
+
+Wrong Tag: X_ADP
+  Proceeding Tag: X, Count: 36
+
+Wrong Tag: X_DET
+  Proceeding Tag: X, Count: 28
+  Proceeding Tag: ADJ, Count: 2
+
+Wrong Tag: X_CONJ
+  Proceeding Tag: X, Count: 5
+
+Wrong Tag: X_ADV
+  Proceeding Tag: X, Count: 1
+  Proceeding Tag: ., Count: 1
+
+Wrong Tag: X_PRT
+  Proceeding Tag: X, Count: 2
+
+Wrong Tag: PRON_X
+  Proceeding Tag: VERB, Count: 3
+  Proceeding Tag: NUM, Count: 2
+
+Wrong Tag: NUM_X
+  Proceeding Tag: ., Count: 11
+  Proceeding Tag: ADP, Count: 10
+
+Wrong Tag: ADP_X
+  Proceeding Tag: NUM, Count: 5
+
+Wrong Tag: ADP_.
+  Proceeding Tag: NUM, Count: 3
+
+Wrong Tag: X_NUM
+  Proceeding Tag: X, Count: 4
+
+Wrong Tag: PRON_VERB
+  Proceeding Tag: DET, Count: 1
+  Proceeding Tag: VERB, Count: 1
+
+Wrong Tag: DET_ADJ
+  Proceeding Tag: NOUN, Count: 2
+
+Wrong Tag: PRT_DET
+  Proceeding Tag: ., Count: 2
+
+Wrong Tag: PRT_X
+  Proceeding Tag: VERB, Count: 2
+  Proceeding Tag: DET, Count: 2
+
+Wrong Tag: DET_X
+  Proceeding Tag: NOUN, Count: 2
+  Proceeding Tag: ADJ, Count: 2

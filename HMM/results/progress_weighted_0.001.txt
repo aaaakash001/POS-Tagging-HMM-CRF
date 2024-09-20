@@ -1,0 +1,227 @@
+[nltk_data] Downloading package brown to
+[nltk_data]     /Users/aakashagarwal/nltk_data...
+[nltk_data]   Package brown is already up-to-date!
+[nltk_data] Downloading package universal_tagset to
+[nltk_data]     /Users/aakashagarwal/nltk_data...
+[nltk_data]   Package universal_tagset is already up-to-date!
+{':', '*', ';', '_', '@', ')', '^', ']', '<', '>', '?', '+', '-', '(', '}', '&', '$', '%', '`', '"', "'", '.', '~', '/', '=', '[', '{', '|', '#', '!', ',', '\\'}
+
+Processing Fold 1...
+
+Required matrices created...
+Accuracy for Fold 1: 0.9633
+
+Per POS Accuracy for Fold 1:
+.: 0.9999
+ADJ: 0.9859
+ADP: 0.9914
+ADV: 0.9907
+CONJ: 0.9996
+DET: 0.9977
+NOUN: 0.9811
+NUM: 0.9988
+PRON: 0.9982
+PRT: 0.9954
+VERB: 0.9896
+X: 0.9985
+
+Wrong predictions saved to wrong_predictions_fold_1.csv
+
+Processing Fold 2...
+
+Required matrices created...
+Accuracy for Fold 2: 0.9634
+
+Per POS Accuracy for Fold 2:
+.: 0.9998
+ADJ: 0.9862
+ADP: 0.9916
+ADV: 0.9910
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9809
+NUM: 0.9987
+PRON: 0.9981
+PRT: 0.9953
+VERB: 0.9895
+X: 0.9985
+
+Wrong predictions saved to wrong_predictions_fold_2.csv
+
+Processing Fold 3...
+
+Required matrices created...
+Accuracy for Fold 3: 0.9628
+
+Per POS Accuracy for Fold 3:
+.: 0.9999
+ADJ: 0.9863
+ADP: 0.9913
+ADV: 0.9909
+CONJ: 0.9996
+DET: 0.9974
+NOUN: 0.9805
+NUM: 0.9986
+PRON: 0.9980
+PRT: 0.9951
+VERB: 0.9896
+X: 0.9986
+
+Wrong predictions saved to wrong_predictions_fold_3.csv
+
+Processing Fold 4...
+
+Required matrices created...
+Accuracy for Fold 4: 0.9626
+
+Per POS Accuracy for Fold 4:
+.: 0.9999
+ADJ: 0.9861
+ADP: 0.9913
+ADV: 0.9907
+CONJ: 0.9996
+DET: 0.9979
+NOUN: 0.9804
+NUM: 0.9987
+PRON: 0.9983
+PRT: 0.9949
+VERB: 0.9891
+X: 0.9984
+
+Wrong predictions saved to wrong_predictions_fold_4.csv
+
+Processing Fold 5...
+
+Required matrices created...
+Accuracy for Fold 5: 0.9628
+
+Per POS Accuracy for Fold 5:
+.: 0.9999
+ADJ: 0.9859
+ADP: 0.9910
+ADV: 0.9910
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9805
+NUM: 0.9987
+PRON: 0.9981
+PRT: 0.9950
+VERB: 0.9895
+X: 0.9988
+
+Wrong predictions saved to wrong_predictions_fold_5.csv
+
+Per POS Accuracy:
+.: 0.9999
+ADJ: 0.9861
+ADP: 0.9913
+ADV: 0.9909
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9807
+NUM: 0.9987
+PRON: 0.9981
+PRT: 0.9951
+VERB: 0.9895
+X: 0.9986
+
+Per POS Precision:
+.: 0.9999
+ADJ: 0.9862
+ADP: 0.9913
+ADV: 0.9909
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9807
+NUM: 0.9987
+PRON: 0.9982
+PRT: 0.9951
+VERB: 0.9894
+X: 0.9988
+
+Per POS Recall:
+.: 0.9999
+ADJ: 0.9861
+ADP: 0.9913
+ADV: 0.9909
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9807
+NUM: 0.9987
+PRON: 0.9981
+PRT: 0.9951
+VERB: 0.9895
+X: 0.9986
+
+Per POS F1 score:
+.: 0.9999
+ADJ: 0.9861
+ADP: 0.9913
+ADV: 0.9909
+CONJ: 0.9996
+DET: 0.9976
+NOUN: 0.9807
+NUM: 0.9987
+PRON: 0.9982
+PRT: 0.9951
+VERB: 0.9894
+X: 0.9987
+
+Overall Accuracy: 0.9630
+
+Overall Recall: 0.9630
+
+Overall Precision: 0.9634
+
+Overall F_1: 0.9632
+
+Overall F_0.5: 0.9633
+
+Overall F_2: 0.9630
+
+Confusion Matrix:
+[[147465      2      0      0      0      0      2      0      0      0
+       0     96]
+ [     0  76276     44   2440      0      0   3931     99      0    200
+     676     55]
+ [    20     77 140019   2000    147    310     70      1    308   1680
+     113     21]
+ [     0   2176   1729  50939     82    170    332      0      8    723
+      75      5]
+ [     0      0     11    129  37916     75      4      0      0      0
+       0     16]
+ [     0      5    591    107     25 135225     15      2   1034      1
+       1     13]
+ [     1   5045     30    235      1    102 265017    925     15     44
+    3308    835]
+ [     0    104      0      0      0      0    370  14381      0      0
+       0     19]
+ [     0      1    415      3      0    291     35      0  48568      6
+       4     11]
+ [     0     40   2297    271      0      2    317      0     12  26840
+      41      9]
+ [     0   1231    186    118      0      0   6411      0      0     15
+  174759     30]
+ [    19     38     20      5      4     19    410      7      6      3
+      31    824]]
+2024-09-07 09:46:55.110 python[49256:44636328] +[IMKClient subclass]: chose IMKClient_Legacy
+2024-09-07 09:46:55.110 python[49256:44636328] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+              precision    recall  f1-score   support
+
+           .       1.00      1.00      1.00    147565
+         ADJ       0.90      0.91      0.90     83721
+         ADP       0.96      0.97      0.97    144766
+         ADV       0.91      0.91      0.91     56239
+        CONJ       0.99      0.99      0.99     38151
+         DET       0.99      0.99      0.99    137019
+        NOUN       0.96      0.96      0.96    275558
+         NUM       0.93      0.97      0.95     14874
+        PRON       0.97      0.98      0.98     49334
+         PRT       0.91      0.90      0.90     29829
+        VERB       0.98      0.96      0.97    182750
+           X       0.43      0.59      0.50      1386
+
+    accuracy                           0.96   1161192
+   macro avg       0.91      0.93      0.92   1161192
+weighted avg       0.96      0.96      0.96   1161192
+
